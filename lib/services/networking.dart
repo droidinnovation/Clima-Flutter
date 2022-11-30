@@ -17,15 +17,3 @@ class NetworkHelper {
     }
   }
 }
-
-/*
-var decodeJson = jsonDecode(data);
-double temp = decodeJson['main']['temp'];
-int condition = decodeJson['weather'][0]['id'];
-String cityName = decodeJson['name'];
-
-print(temp);
-print(condition);
-print(cityName);
-//'https://api.openweathermap.org/data/2.5/weather?lat=$latitude&lon=$longitude&appid=$apiKey'
-*/
